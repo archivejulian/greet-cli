@@ -1,0 +1,14 @@
+def greet(name):
+    """Return a friendly greeting for the given name."""
+    if not name:
+        raise ValueError("name must not be empty")
+    return f"Hello, {name}!"
+
+
+def add_numbers(a, b):
+    """Return the sum of two numbers."""
+    return a + b
+
+
+if __name__ == "__main__":
+    print(greet("world"))
